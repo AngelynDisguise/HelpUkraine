@@ -1,1 +1,48 @@
+@media screen and (max-width: 400px) {
+    #features {
+        padding: 20px;
+        width: 111%;
+    }
+    #about,
+    #services,
+    #testimonials,
+    #team,
+    #contact,
+    #footer {
+        width: 111%;
+    }
+    #portfolio {
+        width: 110%;
+    }
+}
 
+* {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    margin: .2em;
+    padding: .5em;
+}
+
+.banner {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    border: 10px solid black;
+}
+
+.find-family-section {
+    display: block;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.find-family-card {
+    display: inline-flex;
+    width: fit-content;
+    border: 5px solid black;
+}
