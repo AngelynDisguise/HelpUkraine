@@ -17,6 +17,9 @@ React (JS), Node.js, Express, PostgreSQL
 
 **Challenges we ran into**
 
+- Setting up cloud hosting
+- Database setup
+-
 **Next steps**
 
 ## Installation
