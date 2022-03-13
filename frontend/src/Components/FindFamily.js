@@ -3,6 +3,37 @@ import React from 'react'
 function FindFamily() {
   return (
     <div>
+      {/**SEEKING REFUGE SECTION*/}
+      <div className="seeking-refuge-section">
+        <h1>Are you seeking refuge?</h1>
+        <h3>Enter information and make a post here!</h3>
+        <div className="seeking-refuge-card">
+          <label>
+          <p>Profile picture:</p>
+          <input type="file" />
+          </label>
+          <label>
+            <p>Family Name:</p>
+            <input type="text" />
+          </label>
+          <label>
+            <p>Location:</p>
+            <input type="text" />
+          </label>
+          <label>
+            <p>Status:</p>
+            <input type="text" />
+          </label>
+          <label>
+            <p>Searching for:</p>
+            <input type="text" />
+          </label>
+        </div>
+        <h3>Click below to post:</h3>
+        <button type="submit" className="post-button">Post</button>
+      </div>
+
+      {/**FIND FAMILY SECTION*/}
       <div className="find-family-section">
         <h1>Families seeking refuge</h1>
         <div className="find-family-card">

@@ -46,3 +46,15 @@
     width: fit-content;
     border: 5px solid black;
 }
+
+.seeking-refuge-section {
+    display: block;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.seeking-refuge-card {
+    display: inline-block;
+    width: fit-content;
+    border: 5px solid black;
+}

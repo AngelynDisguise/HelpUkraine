@@ -11,7 +11,7 @@ import About from './Components/About';
 function App() {
   return (
     <div className="wrapper">
-      <h1 className="banner">Mission: Help Ukraine Refugees</h1>
+      <h1 className="banner">Mission: Help Ukrainian Refugees</h1>
       <Nav />
       <Routes>
         <Route path="/Home" element={<Home />} />
