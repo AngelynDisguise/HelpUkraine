@@ -1,7 +1,7 @@
 # HelpUkraine
 ## Tech Stack
 
-React (JS), Node.js, Express, MYSQL
+React (JS), Node.js, Express, PostgreSQL
 
 ## Project Components
 
